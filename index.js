@@ -1,14 +1,14 @@
 const fs = require('fs');  //accessing the file system library in node js
 
 //creating a new file
-fs.writeFileSync("newfile.txt","Hello,welcome to development world!!");
-fs.writeFileSync("newfile.txt","Hello, welcome to development world!!. have a great future ahead.");
+// fs.writeFileSync("newfile.txt","Hello,welcome to development world!!");
+// fs.writeFileSync("newfile.txt","Hello, welcome to development world!!. have a great future ahead.");
 
  //append the content in the same file 
-fs.appendFileSync("newfile.txt","\nSanchaii Hunuhunxa?");
+// fs.appendFileSync("newfile.txt","\nSanchaii Hunuhunxa?");
 
 //reading the file content
-let data = fs.readFileSync("newfile.txt");
+// let data = fs.readFileSync("newfile.txt");
 
 //this will give buffer data
 // Buffer is a additional datatype in the node js
@@ -19,7 +19,5 @@ let data = fs.readFileSync("newfile.txt");
 let final_res = data.toString();
 console.log(final_res);
 
-//to rename the file name
-fs.renameSync("newfile.txt","read.txt");
 
- 
+
